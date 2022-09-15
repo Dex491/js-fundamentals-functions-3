@@ -21,7 +21,7 @@ describe("timerStatus", () => {
     })
 })
 
-describe("estimatePrepTime", () => {
+fdescribe("estimatePrepTime", () => {
     it("should return 5 for 5 ingredients and 1", () => {
         expect(estimatePrepTime(['milk', 'sugar', 'eggs', 'flour', 'chocolate'], 1)).toEqual(5)
     })
